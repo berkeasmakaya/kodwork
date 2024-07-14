@@ -1,0 +1,43 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+    container:{
+        flex:1,
+        padding:10,
+        margin:10,
+        borderRadius:10,
+        borderWidth:1,
+        backgroundColor:"#fefffe"
+    },
+    inner_container:{
+        alignItems:"flex-start"
+    },
+    job_name:{
+        color:"#000000",
+        fontWeight:"bold",
+        margin:6,
+    },
+    company:{
+        margin:6,
+        color:"#000000"
+    },
+    location_container:{
+        backgroundColor:"#ef5251",
+        borderRadius:15,
+        marginLeft:7,
+        marginTop:6
+    },
+    location:{
+        color:"#ffffff",
+        margin:6,
+        paddingLeft:5,
+    },
+    level_container:{
+        alignItems:"flex-end"
+    },
+    level:{
+        margin:6,
+        color:"#ef5251",
+        fontWeight:"500"
+    }
+});
